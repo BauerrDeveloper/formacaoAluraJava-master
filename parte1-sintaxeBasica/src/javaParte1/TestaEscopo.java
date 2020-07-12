@@ -19,7 +19,7 @@ public class TestaEscopo {
 
 			System.out.println("Seja bem vindo");
 		} else {
-			System.out.println("infelizmente voce nao pode entrar");
+			System.out.println("infelizmente você nao pode entrar");
 		}
 
 	}
