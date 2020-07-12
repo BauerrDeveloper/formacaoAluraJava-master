@@ -1,0 +1,50 @@
+package br.com.bytebank.banco.test;
+
+public class TesteString {
+	public static void main(String[] args) {
+
+		String nome = "Bauer"; // objeto literal.
+		System.out.println("String Original: " + nome);
+		System.out.println("");
+
+		String replace = nome.replace("B", "b");
+		System.out.println("String depois do replace: " + replace);
+
+		String lowerCase = nome.toLowerCase();
+		System.out.println("String depois do LowerCase: " + lowerCase);
+
+		String upperCase = nome.toUpperCase();
+		System.out.println("String depois do UperCase: " + upperCase);
+
+		char c = 'B';
+		char d = 'b';
+		String doChar = nome.replace(c, d);
+		System.out.println("String depois do char: " + doChar);
+
+		char at = nome.charAt(2);
+		System.out.println("Posição 2 tem o seguinte caracter: " + at);
+
+		int pos = nome.indexOf("ue");
+		System.out.println("A posição do (ue) dentro da String é a:  " + pos);
+
+		String subString = nome.substring(1);
+		System.out.println("A substring na posição 1 é: " + subString);
+
+		System.out.println("A String tem " + nome.length() + " caracteres.");
+
+		for (int i = 0; i < nome.length(); i++) {
+			System.out.println("O caractere na posição " + (i) + " é: " + nome.charAt(i));
+		}
+
+		String vazio = "d";
+
+		System.out.println("Verificando se uma String está vazia: ");
+		if (vazio.isEmpty()) {
+			System.out.println("Sim, a string está vazia.");
+		} else {
+			System.out.println(
+					"Tá vazio não. Não tá vendo? Quer que eu desenhe???" + " Olha aqui o que está escrito: " + vazio);
+		}
+
+	}
+}

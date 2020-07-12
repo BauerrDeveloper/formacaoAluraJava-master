@@ -1,0 +1,17 @@
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+
+		Funcionario funcionario1 = new Funcionario();
+		funcionario1.setNome("Rodrigo Paulo Bauernfeind");
+		funcionario1.setCpf("052.340.959-16");
+		funcionario1.setSalario(2600.00);
+		
+		System.out.println("Nome do funcionario: " + funcionario1.getNome());
+		System.out.println("Bonificação do funionário: R$ " + funcionario1.getBonificacao());
+		System.out.println("Salário total do mês: R$ " + (funcionario1.getSalario() + funcionario1.getBonificacao()));
+
+	}
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parte1-sintaxeBasica/parte1-sintaxeBasica.iml" filepath="$PROJECT_DIR$/parte1-sintaxeBasica/parte1-sintaxeBasica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte2-byteBank/parte2-byteBank.iml" filepath="$PROJECT_DIR$/parte2-byteBank/parte2-byteBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte2-byteBank-encapsulado/parte2-byteBank-encapsulado.iml" filepath="$PROJECT_DIR$/parte2-byteBank-encapsulado/parte2-byteBank-encapsulado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte2-byteBankComposto/parte2-byteBankComposto.iml" filepath="$PROJECT_DIR$/parte2-byteBankComposto/parte2-byteBankComposto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte3-bytebank-herdado/parte3-bytebank-herdado.iml" filepath="$PROJECT_DIR$/parte3-bytebank-herdado/parte3-bytebank-herdado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte3-bytebank-herdado-conta/parte3-bytebank-herdado-conta.iml" filepath="$PROJECT_DIR$/parte3-bytebank-herdado-conta/parte3-bytebank-herdado-conta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte4-java-pilha/parte4-java-pilha.iml" filepath="$PROJECT_DIR$/parte4-java-pilha/parte4-java-pilha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte5-bytebank-biblioteca/parte5-bytebank-biblioteca.iml" filepath="$PROJECT_DIR$/parte5-bytebank-biblioteca/parte5-bytebank-biblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte5-usandoString/parte5-usandoString.iml" filepath="$PROJECT_DIR$/parte5-usandoString/parte5-usandoString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte6-arrays/parte6-arrays.iml" filepath="$PROJECT_DIR$/parte6-arrays/parte6-arrays.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+
+public class TesteConexao {
+	public static void main(String[] args)  throws ConexaoException{
+			Conexao c = new Conexao();
+			
+			try {
+			c.fecha();
+			} catch (ConexaoException e) {
+				e.printStackTrace();
+			}
+			
+	}
+}

@@ -1,0 +1,15 @@
+package byteBankParte2;
+
+import javax.swing.JOptionPane;
+
+public class CriaConta {
+
+	public static void main(String[] args) {
+		
+		Conta primeiraConta = new Conta();
+		primeiraConta.saldo = 200;
+		System.out.println("O saldo da primeiraConta é R$ " + primeiraConta.saldo);
+		JOptionPane.showMessageDialog(null, "O saldo da primeriaConta é R$ " + primeiraConta.saldo);
+	}
+	
+}
