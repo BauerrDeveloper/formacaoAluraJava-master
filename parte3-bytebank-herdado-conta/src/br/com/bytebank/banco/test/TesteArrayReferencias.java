@@ -26,6 +26,7 @@ public class TesteArrayReferencias {
         cc1.deposita(300);
         cc2.deposita(500);
         cliente.setCpf("0523409591-16");
+        cliente.setNome("Rodrigo Paulo");
 
         ContaPoupanca ref = (ContaPoupanca) referencias[1];//type cast
         System.out.println(cc2.getNumero());
