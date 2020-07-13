@@ -35,6 +35,7 @@ public class TesteArrayReferencias {
         System.out.println(cc1.toString());
         System.out.println(cc2.toString());
         System.out.println(cliente.getCpf());
+        System.out.println(cliente.getNome());
 
 
     }
