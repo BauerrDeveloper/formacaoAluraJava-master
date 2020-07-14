@@ -32,6 +32,9 @@ public abstract class Object {
 		// System.out.println("Estou criando uma conta " + this.numero);
 	}
 
+	protected Object() {
+	}
+
 	public abstract void deposita(double valor);
 
 	/**

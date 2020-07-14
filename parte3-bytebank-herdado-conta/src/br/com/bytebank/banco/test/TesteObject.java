@@ -7,6 +7,7 @@ import br.com.bytebank.banco.modelo.ContaPoupanca;
 public class TesteObject {
 
     public static void main(String[] args) {
+
         System.out.println("x");
         System.out.println(3);
         System.out.println(false);
@@ -28,5 +29,5 @@ public class TesteObject {
     static void println(Object referencia) {
     }
 
-    }
+}
 
