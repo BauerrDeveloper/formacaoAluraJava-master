@@ -11,16 +11,17 @@ public class GuardadorDeReferencias {
 	}
 
 	public void adiciona(Object ref) {
-		this.referencias[this.posicaoLivre] = ref;
+		referencias[this.posicaoLivre] = ref;
 		this.posicaoLivre++;
 	}
 
 	public int getQuantidadeDeElementos() {
-		return posicaoLivre;
+		return this.posicaoLivre;
 	}
 
-	public Object getReferencia(int posicao) {
-		return this.referencias[posicao];
+	public Object getReferencia(int pos) {
+		return this.referencias[pos];
 	}
-
 }
+
+
