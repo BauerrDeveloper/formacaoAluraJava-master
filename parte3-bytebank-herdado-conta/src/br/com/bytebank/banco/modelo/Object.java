@@ -96,8 +96,10 @@ public abstract class Object {
 	public static int getTotal() {
 		return Object.total;
 	}
-	
-	@Override
+
+    public abstract boolean equals(Object referencia);
+
+    @Override
 	public String toString() {		
 		return "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Saldo: R$" + this.saldo;
 	}
