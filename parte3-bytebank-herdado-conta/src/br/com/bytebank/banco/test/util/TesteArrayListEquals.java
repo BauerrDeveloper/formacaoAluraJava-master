@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class TesteArrayListEquals {
 
     public static void main(String[] args) {
-        ArrayList<Conta> lista = new ArrayList<Conta>();
+        ArrayList <Conta> lista = new ArrayList <Conta>();
 
         Conta cc1 = new ContaCorrente(237, 23175);
         Conta cc2 = new ContaCorrente(237, 23175);
