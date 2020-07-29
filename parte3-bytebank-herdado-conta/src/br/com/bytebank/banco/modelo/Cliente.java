@@ -12,6 +12,7 @@ public class Cliente  {
 	private String nome;
 	private String cpf;
 	private String profissao;
+	private String titular;
 
 	public String getNome() {
 		return nome;
@@ -32,4 +33,11 @@ public class Cliente  {
 		this.profissao = profissao;
 	}
 
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
 }
