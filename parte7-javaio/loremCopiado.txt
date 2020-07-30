@@ -1,0 +1,4 @@
+Agora estamos testando a entrada pelo teclado.
+C                        F
+
+Finalizando o projeto.

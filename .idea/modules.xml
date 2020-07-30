@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/parte5-bytebank-biblioteca/parte5-bytebank-biblioteca.iml" filepath="$PROJECT_DIR$/parte5-bytebank-biblioteca/parte5-bytebank-biblioteca.iml" />
       <module fileurl="file://$PROJECT_DIR$/parte5-usandoString/parte5-usandoString.iml" filepath="$PROJECT_DIR$/parte5-usandoString/parte5-usandoString.iml" />
       <module fileurl="file://$PROJECT_DIR$/parte6-arrays/parte6-arrays.iml" filepath="$PROJECT_DIR$/parte6-arrays/parte6-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parte7-javaio/parte7-javaio.iml" filepath="$PROJECT_DIR$/parte7-javaio/parte7-javaio.iml" />
     </modules>
   </component>
 </project>
