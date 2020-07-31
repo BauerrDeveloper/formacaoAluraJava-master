@@ -12,7 +12,7 @@ public class TesteLeitura {
     public static void main(String[] args) throws IOException {
 
         InputStream fis = new FileInputStream("C:\\Users\\Casal\\Downloads\\formacaoAluraJava-master\\formacaoAluraJava-master\\parte7-javaio\\lorem.txt"); //criando o fluxo concreto com o arquivo, mas binário
-        Reader isr = new InputStreamReader(fis); //melhorando os dados binários para caracteres
+        Reader isr = new InputStreamReader(fis, "UTF-8"); //melhorando os dados binários para caracteres //forçando encoding
         BufferedReader br = new BufferedReader(isr); //lendo os caracteres
 
         String linha = br.readLine();

@@ -19,7 +19,7 @@ public class TesteEntradaTeclado {
 
         String linha = bufferLeitura.readLine();
 
-        while (linha != null&& !linha.isEmpty()) {
+        while (linha != null && !linha.isEmpty()) {
             bufferEscrita.write(linha);
             linha = bufferLeitura.readLine();
             bufferEscrita.flush();

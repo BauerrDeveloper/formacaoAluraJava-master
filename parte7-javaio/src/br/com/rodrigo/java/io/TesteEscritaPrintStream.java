@@ -12,7 +12,7 @@ public class TesteEscritaPrintStream {
         //PrintStream printStream = new PrintStream(new File("C:\\Users\\Casal\\Downloads\\formacaoAluraJava-master\\formacaoAluraJava-master\\parte7-javaio\\loremPrintStream.txt"))
         //PrintWriter printWriter = new PrintWriter("C:\\Users\\Casal\\Downloads\\formacaoAluraJava-master\\formacaoAluraJava-master\\parte7-javaio\\loremPrintStream.txt")
 
-        PrintStream printStream = new PrintStream("C:\\Users\\Casal\\Downloads\\formacaoAluraJava-master\\formacaoAluraJava-master\\parte7-javaio\\loremPrintStream.txt");
+        PrintStream printStream = new PrintStream("C:\\Users\\Casal\\Downloads\\formacaoAluraJava-master\\formacaoAluraJava-master\\parte7-javaio\\loremPrintStream.txt", "UTF-8");
         printStream.println("Esta linha foi escrita com o método println da classe printStream.");
         printStream.println();
         printStream.print("Finalizando o projeto.");
