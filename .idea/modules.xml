@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gerenciador-de-cursos/gerenciador-de-cursos.iml" filepath="$PROJECT_DIR$/gerenciador-de-cursos/gerenciador-de-cursos.iml" />
       <module fileurl="file://$PROJECT_DIR$/parte1-sintaxeBasica/parte1-sintaxeBasica.iml" filepath="$PROJECT_DIR$/parte1-sintaxeBasica/parte1-sintaxeBasica.iml" />
       <module fileurl="file://$PROJECT_DIR$/parte2-byteBank/parte2-byteBank.iml" filepath="$PROJECT_DIR$/parte2-byteBank/parte2-byteBank.iml" />
       <module fileurl="file://$PROJECT_DIR$/parte2-byteBank-encapsulado/parte2-byteBank-encapsulado.iml" filepath="$PROJECT_DIR$/parte2-byteBank-encapsulado/parte2-byteBank-encapsulado.iml" />
